@@ -2,7 +2,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-# Hard Coded store Below:
+# Static store is added Below:
 
 stores = [  
     {

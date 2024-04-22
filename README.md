@@ -6,7 +6,7 @@
 # 
 *  Create a file `touch app.py` and poputate it with from `flask import Flask` and  `app = Flask(__name__)`.  make sure the file name and app name is same. Try `flask run` and go to `http://127.0.0.1:5000` and maje sure we are getting error 404 page not found
 # Start with our first API End-Point
-*
+* app.py is modified with First_API_Endpoint
 #
 *
 #
