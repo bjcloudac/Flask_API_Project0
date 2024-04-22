@@ -18,7 +18,7 @@ stores = [
 ]  # End of stores  
 
 
-# POST /store data: {name:}
+# GET /stores data
 @app.route('/stores', methods=['GET'])
 def create_store():
     return  {"Known Stores": stores}    # Placeholder
