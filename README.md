@@ -44,7 +44,26 @@ def add_item(name):
             store["Items"].append(new_item)
             return new_item, 201
     return {"Message": "Store not found"}, 404`
-#
+### Now create EndPoint to retrieve a specific store and its Items
+* Ex.  # GET /stores/<string:name>
+`@app.route('/stores/<string:name>', methods=['GET'])
+def get_item(name):
+    for store in stores:
+        if store["Name"] == name:
+            return {"Items": store["Items"]}
+    return {"Message": "Store not found"}, 404`
+### Now create EndPoint to retrieve a price of an item in a specific store 
+* Ex. # GET /stores/<string:name>/<string:item>
+`@app.route('/stores/<string:name>/<string:item>', methods=['GET'])
+def get_item_price(name, item):
+    for store in stores:
+        if store["Name"] == name:
+            for store_item in store["Items"]:
+                if store_item["Name"] == item:
+                    return store_item
+    return {"Message": "Item not found"}, 404`
+## Containerization of Application with Docker 
+*
 *
 #
 *
