@@ -1,4 +1,4 @@
->> How to run this app without doing anything? Just clone 'https://github.com/bjcloudac/Flask_API_Project0.git' locally and run 'make all', if python 3.10 is already installed.
+>>> How to run this app without doing anything? Just clone 'https://github.com/bjcloudac/Flask_API_Project0.git' locally and run 'make all', if python 3.10 is already installed.
 
 # Flask_API_Project0
 *  Create python virtual environment in your working directory **Version optional `python3.10 -m venv .venv`
@@ -64,13 +64,11 @@ def get_item_price(name, item):
                 if store_item["Name"] == item:
                     return store_item
     return {"Message": "Item not found"}, 404`
-## Containerization of Application with Docker 
-*
-*
-#
-*
-#
-*
+>>> Containerization of Application with Docker to follow in link <'https://github.com/bjcloudac/Containerized_Flask_API_Project0.git'>
+
+## Thank you for visiting my page
+>>I hope you found the information helpful. If you have any questions or need further assistance, feel free to reach out. 
+
 
 
     
