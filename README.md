@@ -1,3 +1,5 @@
+>> How to run this app without doing anything? 
+
 # Flask_API_Project0
 *  Create python virtual environment in your working directory **Version optional `python3.10 -m venv .venv`
 #
