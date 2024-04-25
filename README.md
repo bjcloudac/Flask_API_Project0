@@ -1,4 +1,4 @@
->> How to run this app without doing anything? 
+>> How to run this app without doing anything? Just clone 'https://github.com/bjcloudac/Flask_API_Project0.git' locally and run 'make all', if python 3.10 is already installed.
 
 # Flask_API_Project0
 *  Create python virtual environment in your working directory **Version optional `python3.10 -m venv .venv`
